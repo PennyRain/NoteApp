@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< Updated upstream
             "outputFile": "C:\\Users\\Admin\\AndroidStudioProjects\\NotesApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw750dp-v13\\values-sw750dp-v13.xml",
+=======
+            "outputFile": "C:\\Users\\Admin\\AndroidStudioProjects\\NoteApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw750dp-v13\\values-sw750dp-v13.xml",
+>>>>>>> Stashed changes
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\874e5acb62b2b16ab8ba507e2d53b316\\transformed\\ssp-android-1.0.6\\res\\values-sw750dp-v13\\values-sw750dp-v13.xml",

@@ -6,6 +6,7 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
+<<<<<<< Updated upstream
 8-->C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
 9-->C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml
@@ -14,10 +15,21 @@
 11-->C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:5:5-28:19
 12        android:allowBackup="true"
 12-->C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:6:9-35
+=======
+8-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:5:5-28:19
+12        android:allowBackup="true"
+12-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:6:9-35
+>>>>>>> Stashed changes
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.7.0] C:\Users\Admin\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
+<<<<<<< Updated upstream
 15-->C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
 16-->C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:8:9-41
@@ -57,6 +69,47 @@
 34                <category android:name="android.intent.category.LAUNCHER" />
 34-->C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:25:17-77
 34-->C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:25:27-74
+=======
+15-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.NotesApp" >
+20-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:11:9-46
+21        <activity
+21-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:12:9-16:56
+22            android:name="com.link.notesapp.activities.CreateNoteActivity"
+22-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:13:13-58
+23            android:exported="false"
+23-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:14:13-37
+24            android:screenOrientation="portrait"
+24-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:15:13-49
+25            android:windowSoftInputMode="stateHidden" />
+25-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:16:13-54
+26        <activity
+26-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:17:9-27:20
+27            android:name="com.link.notesapp.activities.MainActivity"
+27-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:18:13-52
+28            android:exported="true"
+28-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:19:13-36
+29            android:screenOrientation="portrait"
+29-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:20:13-49
+30            android:windowSoftInputMode="stateHidden" >
+30-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:21:13-54
+31            <intent-filter>
+31-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\AndroidManifest.xml:25:27-74
+>>>>>>> Stashed changes
 35            </intent-filter>
 36        </activity>
 37

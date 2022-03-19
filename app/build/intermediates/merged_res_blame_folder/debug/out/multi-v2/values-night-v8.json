@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< Updated upstream
             "outputFile": "C:\\Users\\Admin\\AndroidStudioProjects\\NotesApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\AndroidStudioProjects\\NotesApp\\app\\src\\main\\res\\values-night\\themes.xml",
+=======
+            "outputFile": "C:\\Users\\Admin\\AndroidStudioProjects\\NoteApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\NoteApp\\app\\src\\main\\res\\values-night\\themes.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

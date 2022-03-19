@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="colorAccent">#FDBE3B</color>
+    <color name="colorDefaultNotecolor">#333333</color>
+    <color name="colorDelete">#FF4842</color>
+    <color name="colorIcons">#A4A4A4</color>
+    <color name="colorMiscetlaneousBackground">#1F1F1F</color>
+    <color name="colorNoteColor2">#FDBE3B</color>
+    <color name="colorNoteColor3">#FF4842</color>
+    <color name="colorNoteColor4">#3A52FC</color>
+    <color name="colorNoteColor5">#000000</color>
+    <color name="colorNoteSubtitletext">#FAFAFA</color>
+    <color name="colorPrimary">#292929</color>
+    <color name="colorPrimaryDark">#292929</color>
+    <color name="colorQuickActionsBackground">#2F2D2E</color>
+    <color name="colorSearchBackground">#333333</color>
+    <color name="colorTextHint">#7B7B7B</color>
+    <color name="colorTextSubtitle">#CECECE</color>
+    <color name="colorsearchIcon">#DBDBDB</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <string name="app_name">Notes App</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="my_notes">My Notes</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="note_title">Note Title</string>
+    <string name="search_notes">Search notes</string>
+    <string name="type_note_here">Type note here..</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme.NotesApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

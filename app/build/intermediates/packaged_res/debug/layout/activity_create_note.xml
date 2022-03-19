@@ -80,11 +80,19 @@
                 android:id="@+id/inputNoteSubtiltle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+<<<<<<< Updated upstream
                 android:layout_marginStart="@dimen/_12sdp"
                 android:layout_marginTop="@dimen/_15sdp"
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:background="@null"
                 android:fontFamily="@font/unbuntu_medium"
+=======
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:background="@null"
+                android:fontFamily="@font/ubuntu_regular"
+>>>>>>> Stashed changes
                 android:hint="@string/note_subtitle"
                 android:importantForAutofill="no"
                 android:includeFontPadding="false"
@@ -101,6 +109,10 @@
                 android:layout_width="@dimen/_5sdp"
                 android:layout_height="0dp"
                 android:layout_marginStart="@dimen/_12sdp"
+<<<<<<< Updated upstream
+=======
+                android:background="@drawable/background_subtitle_indicator"
+>>>>>>> Stashed changes
                 app:layout_constraintBottom_toBottomOf="@+id/inputNoteSubtiltle"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/inputNoteSubtiltle"/>
@@ -130,4 +142,9 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
+<<<<<<< Updated upstream
+=======
+
+    <include layout="@layout/layout_miscellaneous"/>
+>>>>>>> Stashed changes
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

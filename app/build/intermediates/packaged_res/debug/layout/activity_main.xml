@@ -12,6 +12,7 @@
         android:id="@+id/textMyNotes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< Updated upstream
         android:layout_marginTop="28dp"
         android:fontFamily="@font/unbuntu_bold"
         android:includeFontPadding="false"
@@ -21,6 +22,18 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp" />
+=======
+        android:text="@string/my_notes"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:fontFamily="@font/unbuntu_bold"
+        android:includeFontPadding="false"
+        android:textColor="@color/colorwhite"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+>>>>>>> Stashed changes
 
     <LinearLayout
         android:id="@+id/layoutSearch"
@@ -91,7 +104,10 @@
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_add_outline"
             app:tint="@color/colorIcons" />
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
         <ImageView
             android:id="@+id/imageIcon"
             android:layout_width="@dimen/_23sdp"
@@ -100,7 +116,10 @@
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_image"
             app:tint="@color/colorIcons" />
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
         <ImageView
             android:id="@+id/imageAddwebLink"
             android:layout_width="@dimen/_23sdp"
@@ -110,6 +129,7 @@
             android:src="@drawable/ic_web_link"
             app:tint="@color/colorIcons" />
 
+<<<<<<< Updated upstream
     </LinearLayout>
 
 
@@ -129,6 +149,24 @@
         app:layout_constraintBottom_toTopOf="@id/layoutQuickActions"/>
 
 
+=======
+
+    </LinearLayout>
+        <ImageView
+            android:id="@+id/imageAddNotemain"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:background="@drawable/background_add_button"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_add"
+            app:tint="@color/colorPrimary"
+            app:layout_constraintBottom_toTopOf="@+id/layoutQuickActions"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/layoutQuickActions"/>
+>>>>>>> Stashed changes
 
 
 

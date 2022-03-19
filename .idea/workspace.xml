@@ -2,6 +2,7 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
+<<<<<<< Updated upstream
       <config>
         <device id="pixel_3_xl" />
         <option name="nonWearDeviceLastStateName" value="Portrait" />
@@ -11,17 +12,30 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+=======
+      <config />
+    </shared>
+  </component>
+>>>>>>> Stashed changes
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="596c4d12-53fc-4d4f-afba-63834304330d" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="d44226dd-aa7b-47c0-a5b0-70f44bf86b2d" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< Updated upstream
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Admin\.android\avd\Pixel_3a_API_29_1.avd]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Admin\.android\avd\Pixel_4_XL_API_30_2.avd]" />
+>>>>>>> Stashed changes
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -30,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< Updated upstream
         <option value="valueResourceFile" />
         <option value="resourceFile" />
         <option value="Interface" />
@@ -49,6 +64,14 @@
     <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="266fosC5MK4ZQrbZamkX0tOGm0P" />
+=======
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="26KmXbKUayfV64FLWCxe1eskf6l" />
+>>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,6 +80,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+<<<<<<< Updated upstream
     <property name="android-custom-viewC:/Users/cc/android-sdks/sources/android-31/android/view/View.java_SELECTED" value="View" />
     <property name="android-custom-viewC:/Users/cc/android-sdks/sources/android-31/android/view/View.java_View_DIMENSIONS" value="1080&#10;1920" />
     <property name="cidr.known.project.marker" value="true" />
@@ -72,6 +96,14 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cc\AndroidStudioProjects\NotesApp\app\src\main\res\font" />
+=======
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\AndroidStudioProjects\NoteApp\app\src\main\res\drawable" />
+>>>>>>> Stashed changes
     </key>
   </component>
   <component name="RunManager">
@@ -138,11 +170,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< Updated upstream
       <changelist id="596c4d12-53fc-4d4f-afba-63834304330d" name="Default Changelist" comment="" />
       <created>1646749134616</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646749134616</updated>
+=======
+      <changelist id="d44226dd-aa7b-47c0-a5b0-70f44bf86b2d" name="Default Changelist" comment="" />
+      <created>1647180693371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647180693371</updated>
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
