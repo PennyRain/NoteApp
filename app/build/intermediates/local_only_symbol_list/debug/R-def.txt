@@ -20,8 +20,6 @@ color colorsearchIcon
 color colorwhite
 drawable background_add_button
 drawable background_done_button
-<<<<<<< Updated upstream
-=======
 drawable background_miscellaneous
 drawable background_note
 drawable background_note_color_1
@@ -29,7 +27,6 @@ drawable background_note_color_2
 drawable background_note_color_3
 drawable background_note_color_4
 drawable background_note_color_5
->>>>>>> Stashed changes
 drawable background_search
 drawable background_subtitle_indicator
 drawable ic_add
@@ -48,39 +45,26 @@ id imageAddNote
 id imageAddNotemain
 id imageAddwebLink
 id imageBack
-<<<<<<< Updated upstream
-=======
 id imageColor1
 id imageColor2
 id imageColor3
 id imageColor4
 id imageColor5
->>>>>>> Stashed changes
 id imageIcon
+id imageNote
 id imageSave
 id inputNote
 id inputNoteSubtiltle
 id inputNoteTiltle
 id inputSearch
-<<<<<<< Updated upstream
-=======
+id layoutAddImage
 id layoutMiscellanceous
 id layoutNote
 id layoutNoteColor
->>>>>>> Stashed changes
 id layoutQuickActions
 id layoutSearch
 id notesRecyclerView
 id textDateTime
-<<<<<<< Updated upstream
-id textMyNotes
-id viewSubtitleIndicator
-layout activity_create_note
-layout activity_main
-mipmap ic_launcher
-mipmap ic_launcher_round
-string app_name
-=======
 id textMiscellaneous
 id textMyNotes
 id textSubtitle
@@ -97,9 +81,9 @@ layout item_container_note
 layout layout_miscellaneous
 mipmap ic_launcher
 mipmap ic_launcher_round
+string add_image
 string app_name
 string miscellaneous
->>>>>>> Stashed changes
 string my_notes
 string note_subtitle
 string note_title

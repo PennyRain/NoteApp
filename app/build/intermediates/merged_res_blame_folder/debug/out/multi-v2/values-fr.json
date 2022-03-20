@@ -1,11 +1,7 @@
 {
     "logs": [
         {
-<<<<<<< Updated upstream
-            "outputFile": "C:\\Users\\Admin\\AndroidStudioProjects\\NotesApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
-=======
             "outputFile": "C:\\Users\\Admin\\AndroidStudioProjects\\NoteApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
->>>>>>> Stashed changes
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\96a8459cc55356d65de57437416e5b5d\\transformed\\material-1.5.0\\res\\values-fr\\values-fr.xml",

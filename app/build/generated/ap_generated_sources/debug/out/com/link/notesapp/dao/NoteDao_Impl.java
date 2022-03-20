@@ -30,11 +30,7 @@ public final class NoteDao_Impl implements NoteDao {
     this.__insertionAdapterOfNote = new EntityInsertionAdapter<Note>(__db) {
       @Override
       public String createQuery() {
-<<<<<<< Updated upstream
-        return "INSERT OR REPLACE INTO `notes` (`id`,`title`,`date time`,`subtitle`,`note_text`,`image_path`,`color`,`web_link`) VALUES (nullif(?, 0),?,?,?,?,?,?,?)";
-=======
         return "INSERT OR REPLACE INTO `notes` (`id`,`title`,`date_time`,`subtitle`,`note_text`,`image_path`,`color`,`web_link`) VALUES (nullif(?, 0),?,?,?,?,?,?,?)";
->>>>>>> Stashed changes
       }
 
       @Override
@@ -123,11 +119,7 @@ public final class NoteDao_Impl implements NoteDao {
     try {
       final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
       final int _cursorIndexOfTitle = CursorUtil.getColumnIndexOrThrow(_cursor, "title");
-<<<<<<< Updated upstream
-      final int _cursorIndexOfDateTime = CursorUtil.getColumnIndexOrThrow(_cursor, "date time");
-=======
       final int _cursorIndexOfDateTime = CursorUtil.getColumnIndexOrThrow(_cursor, "date_time");
->>>>>>> Stashed changes
       final int _cursorIndexOfSubtitle = CursorUtil.getColumnIndexOrThrow(_cursor, "subtitle");
       final int _cursorIndexOfNoteText = CursorUtil.getColumnIndexOrThrow(_cursor, "note_text");
       final int _cursorIndexOfImagePath = CursorUtil.getColumnIndexOrThrow(_cursor, "image_path");

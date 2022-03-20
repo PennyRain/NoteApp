@@ -39,15 +39,9 @@ public final class NotesDatabase_Impl extends NotesDatabase {
     final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(1) {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
-<<<<<<< Updated upstream
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `date time` TEXT, `subtitle` TEXT, `note_text` TEXT, `image_path` TEXT, `color` TEXT, `web_link` TEXT)");
-        _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'a2411553fa0ad794ae86608a2106eafe')");
-=======
         _db.execSQL("CREATE TABLE IF NOT EXISTS `notes` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `date_time` TEXT, `subtitle` TEXT, `note_text` TEXT, `image_path` TEXT, `color` TEXT, `web_link` TEXT)");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
         _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'd9b327c97b3814ee886a3a2dd319381e')");
->>>>>>> Stashed changes
       }
 
       @Override
@@ -94,11 +88,7 @@ public final class NotesDatabase_Impl extends NotesDatabase {
         final HashMap<String, TableInfo.Column> _columnsNotes = new HashMap<String, TableInfo.Column>(8);
         _columnsNotes.put("id", new TableInfo.Column("id", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsNotes.put("title", new TableInfo.Column("title", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
-<<<<<<< Updated upstream
-        _columnsNotes.put("date time", new TableInfo.Column("date time", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
-=======
         _columnsNotes.put("date_time", new TableInfo.Column("date_time", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
->>>>>>> Stashed changes
         _columnsNotes.put("subtitle", new TableInfo.Column("subtitle", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsNotes.put("note_text", new TableInfo.Column("note_text", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsNotes.put("image_path", new TableInfo.Column("image_path", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
@@ -115,11 +105,7 @@ public final class NotesDatabase_Impl extends NotesDatabase {
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-<<<<<<< Updated upstream
-    }, "a2411553fa0ad794ae86608a2106eafe", "3803d2524ee32dca7e961b3e40d1bbc2");
-=======
     }, "d9b327c97b3814ee886a3a2dd319381e", "04509493c75ad28d3c38a1c54035270d");
->>>>>>> Stashed changes
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)

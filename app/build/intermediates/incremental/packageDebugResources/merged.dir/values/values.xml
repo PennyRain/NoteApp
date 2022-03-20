@@ -18,6 +18,7 @@
     <color name="colorTextSubtitle">#CECECE</color>
     <color name="colorsearchIcon">#DBDBDB</color>
     <color name="colorwhite">#FFFFFF</color>
+    <string name="add_image">Add Image</string>
     <string name="app_name">Notes App</string>
     <string name="miscellaneous">Miscellaneous</string>
     <string name="my_notes">My Notes</string>
